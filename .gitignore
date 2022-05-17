@@ -1,13 +1,24 @@
-*~
+#shell script
+*.sh
 
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
+#output files
+*.out
+nohup*
+*.npz
 
-# KDE directory preferences
-.directory
 
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
+#record file
+*record.txt
 
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
+#python cache
+__pycache__/
+
+#swap
+*.swp
+
+
+#result dir
+kitti_logs/
+season_logs/
+pretrained/
+season_logs/
